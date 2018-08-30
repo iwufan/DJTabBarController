@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		E43AF8D2213788EF00080F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8D1213788EF00080F4D /* AppDelegate.swift */; };
 		E43AF8D4213788EF00080F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8D3213788EF00080F4D /* ViewController.swift */; };
-		E43AF8D7213788EF00080F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43AF8D5213788EF00080F4D /* Main.storyboard */; };
 		E43AF8D9213788F100080F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43AF8D8213788F100080F4D /* Assets.xcassets */; };
 		E43AF8DC213788F100080F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43AF8DA213788F100080F4D /* LaunchScreen.storyboard */; };
+		E43AF8E521378B0C00080F4D /* DJScrollTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8E421378B0C00080F4D /* DJScrollTabBar.swift */; };
+		E43AF8E721378B5000080F4D /* DJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8E621378B5000080F4D /* DJTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E43AF8CE213788EF00080F4D /* DJTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43AF8D1213788EF00080F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E43AF8D3213788EF00080F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E43AF8D6213788EF00080F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E43AF8D8213788F100080F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43AF8DB213788F100080F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43AF8DD213788F100080F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43AF8E421378B0C00080F4D /* DJScrollTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJScrollTabBar.swift; sourceTree = "<group>"; };
+		E43AF8E621378B5000080F4D /* DJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		E43AF8D0213788EF00080F4D /* DJTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				E43AF8E321378AE400080F4D /* DJTabBarController */,
 				E43AF8D1213788EF00080F4D /* AppDelegate.swift */,
 				E43AF8D3213788EF00080F4D /* ViewController.swift */,
-				E43AF8D5213788EF00080F4D /* Main.storyboard */,
 				E43AF8D8213788F100080F4D /* Assets.xcassets */,
 				E43AF8DA213788F100080F4D /* LaunchScreen.storyboard */,
 				E43AF8DD213788F100080F4D /* Info.plist */,
+			);
+			path = DJTabBarController;
+			sourceTree = "<group>";
+		};
+		E43AF8E321378AE400080F4D /* DJTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E43AF8E621378B5000080F4D /* DJTabBarController.swift */,
+				E43AF8E421378B0C00080F4D /* DJScrollTabBar.swift */,
 			);
 			path = DJTabBarController;
 			sourceTree = "<group>";
@@ -124,7 +135,6 @@
 			files = (
 				E43AF8DC213788F100080F4D /* LaunchScreen.storyboard in Resources */,
 				E43AF8D9213788F100080F4D /* Assets.xcassets in Resources */,
-				E43AF8D7213788EF00080F4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43AF8E521378B0C00080F4D /* DJScrollTabBar.swift in Sources */,
+				E43AF8E721378B5000080F4D /* DJTabBarController.swift in Sources */,
 				E43AF8D4213788EF00080F4D /* ViewController.swift in Sources */,
 				E43AF8D2213788EF00080F4D /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E43AF8D5213788EF00080F4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E43AF8D6213788EF00080F4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E43AF8DA213788F100080F4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
