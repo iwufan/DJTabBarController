@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E43AF8D2213788EF00080F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8D1213788EF00080F4D /* AppDelegate.swift */; };
-		E43AF8D4213788EF00080F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8D3213788EF00080F4D /* ViewController.swift */; };
 		E43AF8D9213788F100080F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43AF8D8213788F100080F4D /* Assets.xcassets */; };
 		E43AF8DC213788F100080F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43AF8DA213788F100080F4D /* LaunchScreen.storyboard */; };
 		E43AF8E521378B0C00080F4D /* DJScrollTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8E421378B0C00080F4D /* DJScrollTabBar.swift */; };
 		E43AF8E721378B5000080F4D /* DJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF8E621378B5000080F4D /* DJTabBarController.swift */; };
+		E43AF90721394BDD00080F4D /* DJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF90621394BDD00080F4D /* DJViewController.swift */; };
+		E43AF90921394BF900080F4D /* DJTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AF90821394BF900080F4D /* DJTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E43AF8CE213788EF00080F4D /* DJTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43AF8D1213788EF00080F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E43AF8D3213788EF00080F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E43AF8D8213788F100080F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43AF8DB213788F100080F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43AF8DD213788F100080F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E43AF8E421378B0C00080F4D /* DJScrollTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJScrollTabBar.swift; sourceTree = "<group>"; };
 		E43AF8E621378B5000080F4D /* DJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTabBarController.swift; sourceTree = "<group>"; };
+		E43AF90621394BDD00080F4D /* DJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJViewController.swift; sourceTree = "<group>"; };
+		E43AF90821394BF900080F4D /* DJTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				E43AF8E321378AE400080F4D /* DJTabBarController */,
 				E43AF8D1213788EF00080F4D /* AppDelegate.swift */,
-				E43AF8D3213788EF00080F4D /* ViewController.swift */,
+				E43AF90621394BDD00080F4D /* DJViewController.swift */,
+				E43AF90821394BF900080F4D /* DJTableView.swift */,
 				E43AF8D8213788F100080F4D /* Assets.xcassets */,
 				E43AF8DA213788F100080F4D /* LaunchScreen.storyboard */,
 				E43AF8DD213788F100080F4D /* Info.plist */,
@@ -147,7 +150,8 @@
 			files = (
 				E43AF8E521378B0C00080F4D /* DJScrollTabBar.swift in Sources */,
 				E43AF8E721378B5000080F4D /* DJTabBarController.swift in Sources */,
-				E43AF8D4213788EF00080F4D /* ViewController.swift in Sources */,
+				E43AF90721394BDD00080F4D /* DJViewController.swift in Sources */,
+				E43AF90921394BF900080F4D /* DJTableView.swift in Sources */,
 				E43AF8D2213788EF00080F4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
