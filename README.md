@@ -1,6 +1,8 @@
 # DJTabBarController
 A view controller with a scrollable tabBar that has uncertain number of items. Each item shows a specific view.
 
+You can click [Here](https://github.com/iwufan/DWScrollTabBarController) to get the Objective-C version of this framework.
+
 # Why shoud I use this framework
 - You can build a view controller with scrollable tabBar in only a few steps.<br>
 - The items in the tabBar can be dynamic. The items in the tabBar can be different every time you open the view controller. <br>
