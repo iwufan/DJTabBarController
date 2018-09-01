@@ -47,10 +47,9 @@ extension DJViewController {
         normalTitleFont             = UIFont.systemFont(ofSize: 13)
         currentTitleFont            = UIFont.systemFont(ofSize: 18)
         // height
-//        tabBarHeight                = 30;
+        tabBarHeight                = 30;
         // button width
         isUnifiedWidth              = false;
-//        buttonWidth               = 70;
         // indicator line
         isShowIndicatorLine         = false;
         indicatorLineHeight         = 2;
