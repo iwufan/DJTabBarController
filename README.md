@@ -10,12 +10,12 @@ A view controller with a scrollable tabBar that has uncertain number of items. E
 
 - It can be used on iPhoneX now.
 
-![image](https://github.com/iwufan/Resources/blob/master/Images/DJTabBarController/example1.gif)
-![image](https://github.com/iwufan/Resources/blob/master/Images/DJTabBarController/example2.gif)
-![image](https://github.com/iwufan/Resources/blob/master/Images/DJTabBarController/example3.gif)
-![image](https://github.com/iwufan/Resources/blob/master/Images/DJTabBarController/example4.gif)
-![image](https://github.com/iwufan/Resources/blob/master/Images/DJTabBarController/example5.gif)
-![image](https://github.com/iwufan/Resources/blob/master/Images/DJTabBarController/example6.gif)
+![image](https://github.com/iwufan/Resources/blob/master/Images/DWScrollTabBarController/example1.gif)
+![image](https://github.com/iwufan/Resources/blob/master/Images/DWScrollTabBarController/example2.gif)
+![image](https://github.com/iwufan/Resources/blob/master/Images/DWScrollTabBarController/example3.gif)
+![image](https://github.com/iwufan/Resources/blob/master/Images/DWScrollTabBarController/example4.gif)
+![image](https://github.com/iwufan/Resources/blob/master/Images/DWScrollTabBarController/example5.gif)
+![image](https://github.com/iwufan/Resources/blob/master/Images/DWScrollTabBarController/example6.gif)
 
 # Installation
 
