@@ -26,11 +26,7 @@ Drag all the files in the `DJTabBarController` folder to your project.
 # How to use it
 - ### Extends DJTabBarController <br>
 ```
-#import "DJTabBarController.h"
-
-@interface YourViewController : DJTabBarController
-
-@end
+class DJViewController: DJTabBarController 
 ```
 NOTE: You can make `DJTabBarController` extends your base ViewController in your project if necessary, instead of extending `UIViewController`.
 
