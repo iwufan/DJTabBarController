@@ -20,7 +20,7 @@ class DJViewController: DJTabBarController {
         setupTabbarProperties()
         /**
          !!!!! NOTE:
-         You MUST set properties of tab bar before set value for 'typesArray', otherwise the properties
+         You MUST set properties of tab bar before set value for 'tabItemArray', otherwise the properties
          you set for tab bar will not take effect.
          You can hardcode the types in the code or get the types data from server. It doesn't matter how
          many types are.
@@ -47,7 +47,7 @@ extension DJViewController {
         normalTitleFont             = UIFont.systemFont(ofSize: 13)
         currentTitleFont            = UIFont.systemFont(ofSize: 18)
         // height
-        tabBarHeight                = 30;
+//        tabBarHeight                = 30;
         // button width
         isUnifiedWidth              = false;
 //        buttonWidth               = 70;
@@ -113,7 +113,11 @@ extension DJViewController {
     
     private func loadTableViewData() {
         
+        guard let tableViewArray = tableViewArray else {
+            return
+        }
+        
         let view: DJTableView = tableViewArray[currentPage] as! DJTableView
-        view.typeID = "\(currentPage)"
+        view.typeID = "\(currentPage ?? 0)"
     }
 }

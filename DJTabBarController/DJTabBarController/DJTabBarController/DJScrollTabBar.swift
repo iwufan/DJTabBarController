@@ -158,8 +158,8 @@ extension DJScrollTabBar {
             scrollView.addSubview(tabButton)
             buttonArray.append(tabButton)
             
-            if isShowIndicatorLine {
-                
+//            if isShowIndicatorLine {
+            
                 let lineWidth = indicatorLineWidth <= CGFloat(0) ? tempButtonWidth : indicatorLineWidth
                 
                 let line = UIView()
@@ -173,7 +173,7 @@ extension DJScrollTabBar {
                 tabButton.addSubview(line)
                 
                 lineDict[i] = line
-            }
+//            }
             // calculate the sum of left offset
             leftOffset += tempButtonWidth
             // select the first tabbar button by default
@@ -210,13 +210,15 @@ extension DJScrollTabBar {
             return
         }
         
-        selectedButton?.isSelected = false
-        selectedButton?.backgroundColor = normalButtonBgColor
-        
-        let selectedLine: UIView = lineDict[(selectedButton?.tag)!]!
-        selectedLine.isHidden = true
-        
-        selectedButton?.titleLabel?.font = normalTitleFont
+        if selectedButton != nil {
+            selectedButton?.isSelected = false
+            selectedButton?.backgroundColor = normalButtonBgColor
+            
+            let selectedLine: UIView = lineDict[(selectedButton?.tag)!]!
+            selectedLine.isHidden = true
+            
+            selectedButton?.titleLabel?.font = normalTitleFont
+        }
         
         button.isSelected = true
         button.backgroundColor = currentButtonBgColor
