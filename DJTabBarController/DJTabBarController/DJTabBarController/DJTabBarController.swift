@@ -121,14 +121,7 @@ class DJTabBarController: UIViewController {
     
     let isIphoneX: Bool = {
     
-        guard #available(iOS 11.0, *),
-            UIDevice().userInterfaceIdiom == .phone else {
-                return false
-        }
-        let nativeSize = UIScreen.main.nativeBounds.size
-        let (w, h) = (nativeSize.width, nativeSize.height)
-        let (d1, d2): (CGFloat, CGFloat) = (1125.0, 2436.0)
-        return (w == d1 && h == d2) || (w == d2 && h == d1)
+        return UIScreen.main.bounds.height >= 812
     }()
     
     override func viewDidLoad() {
